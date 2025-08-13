@@ -207,6 +207,23 @@ button {
   padding-bottom: 16px;
 }
 
+/* Estilo para la barra de desplazamiento */
+.trendingPreview-movieList::-webkit-scrollbar {
+  height: 5px; /* Cambia el grosor de la barra */
+}
+
+/* Estilo para el "track" o fondo de la barra de desplazamiento */
+.trendingPreview-movieList::-webkit-scrollbar-track {
+  background-color: var(--bg-dark); /* Color del fondo de la barra */
+  border-radius: 4px;
+}
+
+/* Estilo para la "thumb" o la barrita que se mueve */
+.trendingPreview-movieList::-webkit-scrollbar-thumb {
+  background-color: sandybrown; /* Color de la barra, usa tu color celeste */
+  border-radius: 4px; /* Le da bordes redondeados */
+}
+
 .trendingPreview-movieList .movie-container {
   display: inline-block;
   margin-right: 8px;
